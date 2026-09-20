@@ -6,15 +6,15 @@
         /* Your mobile styles go here */
     }
     footer{
-        position: static;
-        margin-top:20px
+        position: static !important;
+        margin-top:20px !important;
     }
     ul li{
         font-size: smaller;
     }
     #qr{
-        position: static;
-        margin-top: 100px;
+        position: static !important;
+        margin-top: 100px !important;
     }
 }
 
