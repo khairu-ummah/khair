@@ -80,7 +80,7 @@ h6{
     }
     ul li, #buttons li{
         font-size: 11px;
-        margin-right: 10px !important;
+        margin-right: 3px !important;
     }
     .qr{
         position: static !important;
