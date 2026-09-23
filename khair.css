@@ -78,14 +78,17 @@ h6{
         position: static !important;
         margin-top:20px !important;
     }
-    ul li, #buttons li{
+    ul #buttons{
         display: flex;
+        flex-direction: row;
         list-style-type: none;
-        margin: 0
-        padding: 0;
+        overflow: visible;
         gap: 20px;
-        
     }
+    ul li, #buttons li {
+        float:none !important;
+        margin:0 !important;
+        padding: 0 !important;
     .qr{
         position: static !important;
         margin-top: 60px !important;
